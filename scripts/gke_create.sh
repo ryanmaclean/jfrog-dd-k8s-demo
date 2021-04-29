@@ -14,6 +14,7 @@ NUMNODES="3" # Set the number of nodes
 NETWORK="default" # Select the network in which the cluster will deploy
 SUBNETWORK="default" # Select the subnet within the network you'll use
 MAXNODES="3" # Maximum number of nodes per zone
+DISKSIZE="100"
 
 gcloud beta container \
   --project "$PROJECT" \
